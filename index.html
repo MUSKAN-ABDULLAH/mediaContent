@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multimedia Content Website</title>
+  <style>
+    :root {
+      --primary-color: #5e60ce;
+      --secondary-color: #4ea8de;
+      --bg-color: #f7f7f7;
+      --text-color: #333;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    nav {
+      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+      padding: 1.2em 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1.5em;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #e0e0e0;
+    }
+
+    .container {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      margin-bottom: 1em;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5em;
+      margin-top: 2em;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5em;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      text-decoration: none;
+      color: var(--text-color);
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+      color: var(--secondary-color);
+      margin-bottom: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    
+  </nav>
+
+  <div class="container">
+    <h1>Welcome to Our Multimedia Content</h1>
+    <div class="cards">
+      <a href="audio.html" class="card">
+        <h2>Audio Stories</h2>
+        <p>Listen to immersive and inspiring sound stories.</p>
+      </a>
+      <a href="articles.html" class="card">
+        <h2>Articles</h2>
+        <p>Read in-depth news and feature articles.</p>
+      </a>
+      <a href="pictures.html" class="card">
+        <h2>Picture Stories</h2>
+        <p>Explore powerful visual storytelling through images.</p>
+      </a>
+      <a href="news.html" class="card">
+        <h2>News Package</h2>
+        <p>Watch well-crafted news packages and reports.</p>
+      </a>
+      <a href="podcast.html" class="card">
+        <h2>Podcast</h2>
+        <p>Tune in to thought-provoking podcast discussions.</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

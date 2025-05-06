@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f2ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #5e60ce;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+  }
+  
+  h1 {
+    color: #5e60ce;
+    margin-bottom: 1rem;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+  
